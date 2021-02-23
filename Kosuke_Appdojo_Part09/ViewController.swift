@@ -8,18 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     @IBOutlet private weak var label: UILabel!
 
-    @IBAction func exit(segue: UIStoryboardSegue) {
-
+    @IBAction private func exit(segue: UIStoryboardSegue) {
         // 遷移先ViewControllerを取得
-        let inputViewController = segue.source as! InputViewController
-
+        guard let inputViewController = segue.source as? InputViewController else {
+            return
+        }
         //　遷移先ViewControllerの県名が設定されている場合のみラベルを更新する
         if let prefectureName = inputViewController.prefectureName {
             label.text = prefectureName
         }
     }
 }
-

@@ -8,7 +8,6 @@
 import UIKit
 
 class InputViewController: UIViewController {
-
     // 選択されたボタンの県名を保持する
     var prefectureName: String?
 

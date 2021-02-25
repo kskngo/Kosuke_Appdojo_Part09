@@ -35,7 +35,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icz-EU-j9y">
-                                <rect key="frame" x="363" y="114" width="31" height="30"/>
+                                <rect key="frame" x="314" y="114" width="31" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="9Pk-HQ-NuR"/>
                                 </constraints>
@@ -54,7 +54,7 @@
                             <constraint firstItem="55U-m4-4XN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G8Q-gd-9oK"/>
                             <constraint firstItem="icz-EU-j9y" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="55U-m4-4XN" secondAttribute="trailing" constant="8" symbolic="YES" id="SJN-Pt-mxP"/>
                             <constraint firstItem="55U-m4-4XN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="ib1-eK-049"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="icz-EU-j9y" secondAttribute="trailing" constant="20" id="rp9-Pa-0JD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="icz-EU-j9y" secondAttribute="trailing" constant="69" id="rp9-Pa-0JD"/>
                             <constraint firstItem="dW1-ah-Nv9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="t7v-MT-5t9"/>
                         </constraints>
                     </view>
@@ -75,7 +75,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXS-wB-tpY">
-                                <rect key="frame" x="184" y="156" width="46" height="30"/>
+                                <rect key="frame" x="184" y="106" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="4gF-sS-zQn"/>
                                 </constraints>
@@ -85,7 +85,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GV2-rn-NHe">
-                                <rect key="frame" x="176" y="206" width="62" height="30"/>
+                                <rect key="frame" x="176" y="156" width="62" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="NQZ-Tf-XIo"/>
                                 </constraints>
@@ -95,7 +95,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lv7-vJ-B9a">
-                                <rect key="frame" x="184" y="256" width="46" height="30"/>
+                                <rect key="frame" x="184" y="206" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="t2X-y4-I6E"/>
                                 </constraints>
@@ -105,7 +105,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CoP-mr-eyH">
-                                <rect key="frame" x="184" y="306" width="46" height="30"/>
+                                <rect key="frame" x="184" y="256" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="9u6-Ng-KKC"/>
                                 </constraints>
@@ -119,7 +119,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="GV2-rn-NHe" firstAttribute="centerX" secondItem="dXS-wB-tpY" secondAttribute="centerX" id="4tj-1C-Dcd"/>
-                            <constraint firstItem="dXS-wB-tpY" firstAttribute="top" secondItem="iMc-Eb-MBL" secondAttribute="top" constant="100" id="5ap-FM-YBo"/>
+                            <constraint firstItem="dXS-wB-tpY" firstAttribute="top" secondItem="iMc-Eb-MBL" secondAttribute="top" constant="50" id="5ap-FM-YBo"/>
                             <constraint firstItem="lv7-vJ-B9a" firstAttribute="centerX" secondItem="dXS-wB-tpY" secondAttribute="centerX" id="B3a-P5-3Vz"/>
                             <constraint firstItem="GV2-rn-NHe" firstAttribute="top" secondItem="dXS-wB-tpY" secondAttribute="bottom" constant="20" id="C16-8y-jmG"/>
                             <constraint firstItem="lv7-vJ-B9a" firstAttribute="top" secondItem="GV2-rn-NHe" secondAttribute="bottom" constant="20" id="PHL-Ox-zpO"/>

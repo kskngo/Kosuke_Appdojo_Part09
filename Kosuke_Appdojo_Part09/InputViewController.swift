@@ -9,7 +9,7 @@ import UIKit
 
 class InputViewController: UIViewController {
     // 選択されたボタンの県名を保持する
-    var prefectureName: String?
+    private(set) var prefectureName: String?
 
     // セグエが実行される前に呼ばれるメソッド
     // 引数senderはセグエを開始したオブジェクト

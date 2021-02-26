@@ -81,7 +81,7 @@
                                 </constraints>
                                 <state key="normal" title="東京都"/>
                                 <connections>
-                                    <segue destination="2Nh-yT-dQV" kind="unwind" unwindAction="exitWithSegue:" id="AjT-kN-CWD"/>
+                                    <action selector="tokyo:" destination="pBb-Du-m8o" eventType="touchUpInside" id="SFV-l8-HGq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GV2-rn-NHe">
@@ -91,7 +91,7 @@
                                 </constraints>
                                 <state key="normal" title="神奈川県"/>
                                 <connections>
-                                    <segue destination="2Nh-yT-dQV" kind="unwind" unwindAction="exitWithSegue:" id="i7W-yf-U3e"/>
+                                    <action selector="kanagawa:" destination="pBb-Du-m8o" eventType="touchUpInside" id="mp3-fW-9m1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lv7-vJ-B9a">
@@ -101,7 +101,7 @@
                                 </constraints>
                                 <state key="normal" title="埼玉県"/>
                                 <connections>
-                                    <segue destination="2Nh-yT-dQV" kind="unwind" unwindAction="exitWithSegue:" id="55k-rc-Ecd"/>
+                                    <action selector="saitama:" destination="pBb-Du-m8o" eventType="touchUpInside" id="dko-0g-iC8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CoP-mr-eyH">
@@ -111,7 +111,7 @@
                                 </constraints>
                                 <state key="normal" title="千葉県"/>
                                 <connections>
-                                    <segue destination="2Nh-yT-dQV" kind="unwind" unwindAction="exitWithSegue:" id="HK0-oe-ZXQ"/>
+                                    <action selector="chiba:" destination="pBb-Du-m8o" eventType="touchUpInside" id="AYO-kz-pXm"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -134,10 +134,13 @@
                     <navigationItem key="navigationItem" id="3e3-O6-rIQ">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="3lh-hU-7K2">
                             <connections>
-                                <segue destination="2Nh-yT-dQV" kind="unwind" unwindAction="exitWithSegue:" id="MtD-j6-9GH"/>
+                                <action selector="cancel:" destination="pBb-Du-m8o" id="HXw-Q5-e7l"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="2Nh-yT-dQV" kind="unwind" identifier="Back" unwindAction="exitWithSegue:" id="orG-xu-dei"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ldc-tc-05A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="2Nh-yT-dQV" userLabel="Exit" sceneMemberID="exit"/>
